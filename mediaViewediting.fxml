@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mediaViewpackage.mediaview_contr">
+   <children>
+      <MediaView fx:id="mediaView" fitHeight="300.0" fitWidth="500.0" layoutX="57.0" layoutY="20.0" />
+      <Button fx:id="runbutton" layoutX="81.0" layoutY="342.0" mnemonicParsing="false" onAction="#RunButton" prefHeight="43.0" prefWidth="146.0" text="Run / Pause">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="resetbutton" layoutX="385.0" layoutY="342.0" mnemonicParsing="false" onAction="#ResetButton" prefHeight="42.0" prefWidth="82.0" text="Reset">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="fileButton" layoutX="250.0" layoutY="342.0" mnemonicParsing="false" onAction="#fileButton" prefHeight="42.0" prefWidth="113.0" text="File">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+
+
+   </children>
+</AnchorPane>
